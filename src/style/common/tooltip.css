@@ -1,0 +1,35 @@
+@import 'tailwindcss/components';
+
+@layer components {
+  .tooltip {
+    @apply
+    flex
+    flex-col
+    items-center
+    !rounded-xl
+    !text-white
+    !border-2
+    !border-white
+    min-w-[77px]
+    !font-thin
+    !px-2;
+    h5 {
+      @apply !font-bold
+    }
+  }
+  .tooltip_base {
+    @apply tooltip !bg-primary before:!border-t-primary;
+  }
+  .tooltip_pit {
+    @apply tooltip !bg-secondary before:!border-t-secondary;
+  }
+  .tooltip_bus_pit {
+    @apply !border-2 !border-white !rounded-full w-9 h-9 !bg-secondary before:!border-t-transparent;
+  }
+  .tooltip_green {
+    @apply tooltip !bg-green before:!border-t-green;
+  }
+  .tooltip_gray {
+    @apply tooltip !bg-gray-600 before:!border-t-gray-600;
+  }
+}

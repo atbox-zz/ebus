@@ -1,0 +1,17 @@
+@import 'tailwindcss/components';
+
+@layer components {
+  .searchBar {
+    @apply
+    w-full
+    bg-gray-300
+    rounded-[10px]
+    pl-4
+    pr-9
+    py-3
+    outline-none
+    transition-all
+    focus:shadow-md
+    focus:bg-gray-500;
+  }
+}

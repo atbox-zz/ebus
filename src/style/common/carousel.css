@@ -1,0 +1,9 @@
+@import 'tailwindcss/components';
+
+@layer components {
+  .carousel {
+    &_image {
+      @apply w-full h-[215px] md:h-[calc(100vh-346px)] object-cover;
+    }
+  }
+}

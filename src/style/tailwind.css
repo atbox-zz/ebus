@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans tracking-wide;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #root {
+    @apply text-xs pt-[72px] pb-14 bg-gray-100 min-h-screen;
+  }
+  h1 {
+    @apply text-xl font-bold;
+  }
+  h2 {
+    @apply text-lg font-bold;
+  }
+  h3 {
+    @apply text-base font-bold;
+  }
+  h4 {
+    @apply text-sm font-bold md:text-base;
+  }
+  h5 {
+    @apply text-xs font-bold;
+  }
+  a.active {
+    @apply text-primary font-bold;
+  }
+}

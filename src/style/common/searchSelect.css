@@ -1,0 +1,9 @@
+@import 'tailwindcss/components';
+
+@layer components {
+  .searchSelect {
+    @apply
+    w-full
+    max-w-[335px];
+  }
+}
