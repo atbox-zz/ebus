@@ -1,6 +1,6 @@
 {
   "back_search": "返回搜尋",
-  "bus_news": "台灣公車動態",
+  "bus_news": "公車動態",
   "chinese": "中文",
   "city": {
     "Keelung": "基隆市",
@@ -98,7 +98,7 @@
   "unStarted": "尚未發車",
   "update_immediately": "立即更新",
   "website_name": "三重汽車客運公車站牌資訊",
-  "designer": "三重汽車客運股份有限公司 天馬行空の育昇設計",
+  "designer": "天馬行空の育昇設計",
   "realtime1": "三重公車站進站時間",
   "realtime2": "三重總站進站時間"
 }

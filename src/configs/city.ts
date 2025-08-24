@@ -1,10 +1,10 @@
 export const CITY_OPTIONS = [
-  { id: 0, name: '臺北市', en: 'Taipei', value: 'Taipei', color: 'text-blue-dark', fill: '#283C43' },
-  { id: 1, name: '桃園市', en: 'Taoyuan', value: 'Taoyuan', color: 'text-blue', fill: '#3591C5' },
-  { id: 2, name: '臺中市', en: 'Taichung', value: 'Taichung', color: 'text-secondary', fill: '#D08181' },
-  { id: 3, name: '臺南市', en: 'Tainan', value: 'Tainan', color: 'text-green', fill: '#7FC0C5' },
+  { id: 0, name: '新北市', en: 'NewTaipei', value: 'NewTaipei', color: 'text-blue-dark', fill: '#283C43' },
+  { id: 1, name: '台北市', en: 'Taipei', value: 'Taipei', color: 'text-blue', fill: '#3591C5' },
+  { id: 2, name: '桃園市', en: 'Taoyuan', value: 'Taoyuan', color: 'text-secondary', fill: '#D08181' },
+  { id: 3, name: '台中市', en: 'Taichung', value: 'Taichung', color: 'text-green', fill: '#7FC0C5' },
 //  { id: 4, name: '高雄市', en: 'Kaohsiung', value: 'Kaohsiung', color: 'text-teal', fill: '#5E9BAE' },
-  { id: 5, name: '新北市', en: 'NewTaipei', value: 'NewTaipei', color: 'text-green-dark', fill: '#52797C' },
+  { id: 5, name: '台南市', en: 'Tainan', value: 'Tainan', color: 'text-green-dark', fill: '#52797C' },
   { id: 6, name: '其他地區', en: 'Other City', value: '', color: 'text-green-dark', fill: '#52797C' },
 ] as const;
 

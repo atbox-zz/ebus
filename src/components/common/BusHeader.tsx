@@ -116,7 +116,7 @@ function HeaderLogo({ goPage }: HeaderLogoProps) {
       {/*<img src={createImageSrc('images/12x12.png')} alt="http://www.tybus.com.tw/" className="w-40" />*/}
       <div>
         <h4>{t('website_name')}</h4>
-        <p>Taoyuan Bus Company BusStop</p>
+        <p>Sanchung Bus Company BusStop</p>
       </div>
     </div>
   )

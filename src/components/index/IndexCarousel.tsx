@@ -25,7 +25,7 @@ function IndexCarousel() {
             <img className="carousel_image" src={createImageSrc(banner)} alt="" />
             <div className="absolute text-white top-[15%] left-[10%] [writing-mode:vertical-lr] text-left">
               <p className="font-['Roboto'] tracking-[0.1rem] md:text-sm md:tracking-[0.2rem]">
-                TAIWAN BUS+
+                Sanchung E BUS+
               </p>
               <p className={`${tracking[language]}`}>{t('bus_news')}</p>
               <h2 className={`${padding[language]} ${tracking[language]}`}>

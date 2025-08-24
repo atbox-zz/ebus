@@ -10,8 +10,7 @@ function BusRipples({ children }: Props) {
     <Ripples
       className="w-full"
       color="rgba(256, 256, 256, 0.6)"
-      during={2000}
-    >
+      during={2000} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    >
       {children}
     </Ripples>
   )
