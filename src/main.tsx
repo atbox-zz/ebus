@@ -20,7 +20,7 @@ const persistor = persistStore(store);
 generateToken();
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ebus">
       <Provider store={store}>
         <PersistGate persistor={persistor}>
           <BusProvider>
